@@ -422,7 +422,7 @@ qm set $VMID \
 ### https://github.com/tteck/Proxmox
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D7EP4GF)" >/dev/null
 msg_ok "Created HAOS VM ${CL}${BL}(${HN})"
-if [ "$START_VM" == "yes" ]; then
+if [ "$START_VM" == "NO" ]; then
   msg_info "Starting Home Assistant OS VM"
   qm start $VMID
   msg_ok "Started Home Assistant OS VM"
