@@ -1,6 +1,6 @@
 # Hassio-fix
 
-# all of the script that is on here is base of @tteck Proxmox install Script
+all of the script that is on here is base of @tteck Proxmox install Script
 https://github.com/tteck/Proxmox 
 
 
