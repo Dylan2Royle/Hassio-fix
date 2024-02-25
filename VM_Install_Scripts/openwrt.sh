@@ -127,7 +127,7 @@ function send_line_to_vm() {
     "(") character="shift-9" ;;
     ")") character="shift-0" ;;
     esac
-    qm sendkey $VMID "$character"
+    # qm sendkey $VMID "$character"
   done
   # qm sendkey $VMID ret
 }
