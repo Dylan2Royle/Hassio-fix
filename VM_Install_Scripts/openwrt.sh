@@ -129,7 +129,7 @@ function send_line_to_vm() {
     esac
     qm sendkey $VMID "$character"
   done
-  qm sendkey $VMID ret
+  # qm sendkey $VMID ret
 }
 
 TEMP_DIR=$(mktemp -d)
