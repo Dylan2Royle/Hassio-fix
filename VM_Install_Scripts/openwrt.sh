@@ -483,7 +483,7 @@ qm set $VMID \
   </div>" >/dev/null
 msg_ok "Created OpenWrt VM ${CL}${BL}(${HN})"
 msg_info "OpenWrt is being started in order to configure the network interfaces."
-qm start $VMID
+# qm start $VMID
 sleep 15
 msg_ok "Network interfaces are being configured as OpenWrt initiates."
 send_line_to_vm ""
