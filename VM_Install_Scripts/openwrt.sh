@@ -512,7 +512,7 @@ qm set $VMID \
 msg_ok "Bridge interfaces have been successfully added."
 if [ "$START_VM" == "yes" ]; then
   msg_info "Starting OpenWrt VM"
-  qm start $VMID
+  # qm start $VMID
   msg_ok "Started OpenWrt VM"
 fi
 VLAN_FINISH=""
