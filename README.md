@@ -1,3 +1,7 @@
+## R.I.P TTECK
+Here is the sad news " https://github.com/community-scripts/ProxmoxVE/discussions/237 "
+
+
 # Hassio-fix
 
 all of the script that is on here is base of @tteck Proxmox install Script
